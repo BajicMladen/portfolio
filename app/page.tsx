@@ -24,6 +24,17 @@ export default function Home() {
 
       <div className="shell">
         <header className="side intro">
+          <div className="avatar">
+            <img
+              src="/mladen-bajic-192.webp"
+              srcSet="/mladen-bajic-192.webp 1x, /mladen-bajic-288.webp 1.5x, /mladen-bajic.jpg 2.6x"
+              width={96}
+              height={96}
+              alt="Portrait of Mladen Bajić"
+              decoding="async"
+              fetchPriority="high"
+            />
+          </div>
           <p className="prompt">
             ~/mladen-bajic $ <span className="typed">whoami</span>
             <span className="cursor" aria-hidden="true">

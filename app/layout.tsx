@@ -58,6 +58,7 @@ const personLd = {
       name: site.name,
       alternateName: "Mladen Bajic",
       url: site.url,
+      image: `${site.url}/mladen-bajic.jpg`,
       email: `mailto:${site.email}`,
       jobTitle: "Full Stack Engineer & Team Lead",
       description: site.description,
