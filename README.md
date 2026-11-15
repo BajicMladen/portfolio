@@ -29,7 +29,7 @@ npm run build   # production build
 
 1. In Vercel: **Add New → Project**, import this repository. No settings needed.
 2. After you buy the domain, add it under **Project → Settings → Domains** and set the DNS records Vercel shows you.
-3. Set the environment variable `NEXT_PUBLIC_SITE_URL` to your domain (for example `https://mladenbajic.dev`) and redeploy. Canonical URLs, the sitemap and social previews all use it.
+3. Set the environment variable `NEXT_PUBLIC_SITE_URL` to your domain (for example `https://www.mladenbajic.dev`) and redeploy. Canonical URLs, the sitemap and social previews all use it.
 4. Submit `https://YOUR-DOMAIN/sitemap.xml` in Google Search Console.
 
 ## Add the CV button

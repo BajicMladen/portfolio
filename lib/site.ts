@@ -1,9 +1,9 @@
 /**
  * Site-wide settings. Change `url` once the domain is live
- * (or set NEXT_PUBLIC_SITE_URL in Vercel → Settings → Environment Variables).
+ * (NEXT_PUBLIC_SITE_URL in Vercel → Settings → Environment Variables overrides it).
  */
 export const site = {
-  url: (process.env.NEXT_PUBLIC_SITE_URL ?? "https://mladenbajic.dev").replace(/\/$/, ""),
+  url: (process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.mladenbajic.dev").replace(/\/$/, ""),
   name: "Mladen Bajić",
   title: "Mladen Bajić · Full Stack Engineer & Team Lead",
   description:
